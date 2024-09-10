@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.paprajap</groupId>
 	<artifactId>common-module</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<name>common-module</name>
 	<description>Common Module For Microservice</description>
 	<url/>
@@ -50,5 +50,13 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>PaPrajap Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/PaPrajap-JKV/common-module</url>
+		</repository>
+	</distributionManagement>
 
 </project>
